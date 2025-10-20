@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekly Diet & Exercise Tracker</title>
+</head>
+<body>
+
+    <Table style="width: 100%;" style="height: 600px;" bgcolor="silver">
+        <th style="align-items: center;" > <h1>Weekly Diet & Exercise Tracker</h1>
+        <p>Monitor your meals and workouts for a healthier lifestyle</p></th>
+    </Table>
+<br>
+
+<p>Watch this video for tips on healthy eating and exercise!</p>
+<iframe align="right" frameborder="1" width="700px" height="600px" src="https://www.youtube.com/embed/Cbs6k8VUuNI" allowfullscreen ></iframe>
+    <form>
+
+        <fieldset style="width: 800px;">
+            <legend>Personal Info</legend>
+            Name: <input type="text" name="name"><br><br>
+            Age: <input type="number" name="age"><br><br>
+            Gender: 
+            <select name="gender">
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset style="width: 800px;">
+            <legend>Diet Tracking (Mon - Fri)</legend>
+            <table border="6">
+                <tr>
+                    <th>Day</th>
+                    <th>Calories</th>
+                </tr>
+                <tr><td>Mon</td><td><input type="number" name="mon_calories"></td></tr>
+                <tr><td>Tue</td><td><input type="number" name="tue_calories"></td></tr>
+                <tr><td>Wed</td><td><input type="number" name="wed_calories"></td></tr>
+                <tr><td>Thu</td><td><input type="number" name="thu_calories"></td></tr>
+                <tr><td>Fri</td><td><input type="number" name="fri_calories"></td></tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset style="width: 800px;">
+            <legend>Exercise (Mon - Fri)</legend>
+            <table border="6">
+                <tr>
+                    <th>Day</th>
+                    <th>Minutes</th>
+                </tr>
+                <tr><td>Mon</td><td><input type="number" name="mon_minutes"></td></tr>
+                <tr><td>Tue</td><td><input type="number" name="tue_minutes"></td></tr>
+                <tr><td>Wed</td><td><input type="number" name="wed_minutes"></td></tr>
+                <tr><td>Thu</td><td><input type="number" name="thu_minutes"></td></tr>
+                <tr><td>Fri</td><td><input type="number" name="fri_minutes"></td></tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <br>
+
+
+
+</body>
+</html>
